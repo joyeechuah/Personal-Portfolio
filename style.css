@@ -1,0 +1,258 @@
+html{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.fullname{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: navy;
+    font-size: 38px;
+    font-weight: bold;
+}
+.Header_Nav p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: royalblue;
+    font-size: 18px;
+}
+
+.Header_Nav{
+    width: 100%;
+    background-image: url(https://i.postimg.cc/RZSGB5vP/2203c9f7e3c290cc3e874352769bdcff.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_header{
+    padding: 25px;
+}
+
+.right_header{
+    padding: 20px;
+}
+
+.right_header a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    color: black;
+}
+
+.right_header a:hover{
+    background-color: darksalmon;
+}
+
+.Hero_Section{
+    background-image: url(https://i.postimg.cc/Zn4882K8/laptop-mockup-with-a-neutral-beige-background-for-tech-resources-and-demonstrations-free-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.Hero_Introduction{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 43%;
+    right: 5px;
+}
+
+.Hero_Introduction h1{
+    margin: 0;
+}
+
+.Hero_Introduction h2{
+    font-size: 16px;
+}
+
+.container-1{
+    background-image: url(https://i.postimg.cc/vmXxRTQb/beige-luxury-wave-background-with-abstract-gold-lines-wallpaper-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Introduction_aboutme{
+    font-size: 1.1rem;
+}
+
+.Introduction_aboutme h1{
+    color: navy;
+}
+
+.Introduction_aboutme h2{
+    color: navy;
+}
+
+.Introduction_aboutme p{
+    color: royalblue;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 220px;
+    padding-top: 10px;
+    background-image: url(https://i.postimg.cc/RFZTn2PD/33591ebec14f4426daad5cb4a51ad9eb-t.jpg);
+}
+
+.box-1{
+    width: 32%;
+    height: 200px;
+    border: 2px solid black;
+    background-color: beige;
+    text-align: center;
+}
+
+#Education{
+    text-align: center;
+    background-image: url(https://i.postimg.cc/yx9nVcpN/pngtree-aesthetic-desert-landscape-contemporary-abstract-with-textured-earth-tones-and-beige-image-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h1-education{
+    margin: 0;
+}
+
+#Experience{
+    background-image: url(https://i.postimg.cc/VNRxwQr7/beautiful-cream-color-luxury-wave-background-with-gold-lines-abstract-elegant-wallpapers-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.h1_experience{
+    margin: 0;
+    text-decoration: underline;
+    color: navy;
+}
+
+#Experience h2{
+    text-decoration: underline;
+    color: navy;
+}
+
+#Experience h3{
+    text-decoration: underline;
+    color: navy;
+}
+
+.skills_needed{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.skills_needed p{
+    border: 2px solid black;
+    color: royalblue;
+    background-color: lightyellow;
+    padding: 15px;
+    font-size: 1.25rem;
+}
+
+.Job p{
+    font-size: 18px;
+    font-weight: 500;
+    color: royalblue;
+}
+
+#Skills{
+    background-image: url(https://i.postimg.cc/NjynV2Bt/abstract-paper-cut-vector-template-background-474888-4460.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#Skills h1{
+    margin: 0;
+    text-decoration: underline;
+}
+
+#Skills h2{
+    text-decoration: underline;
+}
+
+#Interests{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-image: url(https://i.postimg.cc/0NGsNXjX/light-beige-grainy-gradient-background-ivory-toned-blurry-cosmetics-background-large-banner-copy-spa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Interests h1{
+    margin: 0;
+    text-decoration: underline;
+    font-size: 32px;
+    color: navy;
+}
+
+#Interests h2{
+    text-decoration: underline;
+    font-size: 25px;
+    color: navy;
+}
+
+#Interests p{
+    font-size: 22px;
+}
+
+.Contact{
+    text-align: center;
+    background-color: burlywood;
+    padding-bottom: 20px;
+}
+
+.Contact h1{
+    margin: 0;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+.Contact p{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: navy;
+}
+
+.Contact a{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.Contact a:hover{
+    background-color: yellow;
+}
+
+.copyright_section{
+    background-color: #C4A484;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+.copyright_section p{
+    margin: 0;
+}
