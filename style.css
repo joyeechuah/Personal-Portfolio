@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     margin: 0;
     width: 100%;
@@ -227,7 +223,6 @@ img {
     color: royalblue;
 }
 
-/* SKILLS */
 #Skills {
     background-image: url("https://i.postimg.cc/NjynV2Bt/abstract-paper-cut-vector-template-background-474888-4460.jpg");
     background-position: bottom;
@@ -252,7 +247,6 @@ img {
     border-radius: 12px;
 }
 
-/* INTERESTS */
 #Interests {
     background-image: url("https://i.postimg.cc/0NGsNXjX/light-beige-grainy-gradient-background-ivory-toned-blurry-cosmetics-background-large-banner-copy-spa.jpg");
     font-family: "Times New Roman", Times, serif;
@@ -280,7 +274,6 @@ img {
     font-size: 18px;
 }
 
-/* FOOTER */
 .Contact {
     padding: 40px 20px;
     background-color: burlywood;
@@ -339,10 +332,7 @@ img {
 
     .Hero_Introduction {
         width: 52%;
-        max-width: 430px;
-        top: 57%;
         left: 50%;
-        font-size: 13px;
     }
 
     .Hero_Introduction h1 {
@@ -351,6 +341,10 @@ img {
 
     .Hero_Introduction h2 {
         font-size: 15px;
+    }
+
+    .Hero_Introduction p {
+        font-size: 8px;
     }
 
     .container-1 {
@@ -375,10 +369,8 @@ img {
         padding-right: 10px;
     }
 
-    .left_header,
     .right_header {
         width: 100%;
-        text-align: center;
     }
 
     .fullname {
@@ -399,7 +391,6 @@ img {
         width: 54%;
         top: 54%;
         left: 47%;
-        font-size: 6px;
         line-height: 1.2;
     }
 
@@ -415,6 +406,7 @@ img {
 
     .Hero_Introduction p {
         margin: 2px 0;
+        font-size: 7px;
     }
 
     .Introduction_aboutme {
