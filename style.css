@@ -1,27 +1,37 @@
-html{
-    margin: 0;
+* {
+    box-sizing: border-box;
 }
 
-body{
-    margin: 0;
+html {
+    scroll-behavior: smooth;
 }
 
-.fullname{
+body {
     margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: navy;
-    font-size: 38px;
-    font-weight: bold;
-}
-.Header_Nav p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: royalblue;
-    font-size: 18px;
-}
-
-.Header_Nav{
     width: 100%;
-    background-image: url(https://i.postimg.cc/RZSGB5vP/2203c9f7e3c290cc3e874352769bdcff.jpg);
+    color: #202020;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.content-wrapper {
+    width: 90%;
+    max-width: 1120px;
+    margin: auto;
+}
+
+.Header_Nav {
+    width: 100%;
+    padding: 20px 40px;
+    background-image: url("https://i.postimg.cc/RZSGB5vP/2203c9f7e3c290cc3e874352769bdcff.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -29,235 +39,400 @@ body{
     align-items: center;
 }
 
-.left_header{
-    padding: 25px;
+.fullname {
+    margin: 0;
+    color: navy;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 38px;
 }
 
-.right_header{
-    padding: 20px;
+.short-intro {
+    margin: 5px 0 0;
+    color: royalblue;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
 }
 
-.right_header a{
-    text-decoration: none;
+.right_header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.right_header a {
+    margin: 4px;
     padding: 10px;
-    font-size: 20px;
-    font-family: monospace;
-    font-weight: bold;
     color: black;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-.right_header a:hover{
+.right_header a:hover {
     background-color: darksalmon;
 }
 
-.Hero_Section{
-    background-image: url(https://i.postimg.cc/Zn4882K8/laptop-mockup-with-a-neutral-beige-background-for-tech-resources-and-demonstrations-free-photo.jpg);
+.Hero_Section {
+    height: 700px;
+    background-image: url("https://i.postimg.cc/Zn4882K8/laptop-mockup-with-a-neutral-beige-background-for-tech-resources-and-demonstrations-free-photo.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    position: relative;
 }
 
-.Hero_Introduction{
+.Hero_Introduction {
+    width: 32%;
+    max-width: 600px;
+    position: absolute;
+    top: 57%;
+    left: 49%;
+    transform: translate(-50%, -50%);
     text-align: center;
     font-size: 15px;
-    position: relative;
-    top: 43%;
-    right: 5px;
+    line-height: 1.4;
 }
 
-.Hero_Introduction h1{
-    margin: 0;
+.Hero_Introduction h1 {
+    margin: 0 0 8px;
+    font-size: 52px;
+    line-height: 1.1;
 }
 
-.Hero_Introduction h2{
-    font-size: 16px;
+.Hero_Introduction h2 {
+    margin: 5px 0 10px;
+    font-size: 18px;
+    line-height: 1.3;
 }
 
-.container-1{
-    background-image: url(https://i.postimg.cc/vmXxRTQb/beige-luxury-wave-background-with-abstract-gold-lines-wallpaper-vector.jpg);
+.Hero_Introduction p {
+    margin: 7px 0;
+}
+
+.container-1 {
+    padding: 40px 5%;
+    background-image: url("https://i.postimg.cc/vmXxRTQb/beige-luxury-wave-background-with-abstract-gold-lines-wallpaper-vector.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
-.Introduction_aboutme{
-    font-size: 1.1rem;
+.photo {
+    width: 250px;
 }
 
-.Introduction_aboutme h1{
+.Introduction_aboutme {
+    width: 65%;
+    max-width: 760px;
+    font-size: 18px;
+}
+
+.Introduction_aboutme h1,
+.Introduction_aboutme h2 {
     color: navy;
 }
 
-.Introduction_aboutme h2{
-    color: navy;
-}
-
-.Introduction_aboutme p{
+.Introduction_aboutme p {
     color: royalblue;
 }
 
-.box-container{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 220px;
-    padding-top: 10px;
-    background-image: url(https://i.postimg.cc/RFZTn2PD/33591ebec14f4426daad5cb4a51ad9eb-t.jpg);
+.box-container {
+    padding: 20px;
+    background-image: url("https://i.postimg.cc/RFZTn2PD/33591ebec14f4426daad5cb4a51ad9eb-t.jpg");
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 }
 
-.box-1{
-    width: 32%;
-    height: 200px;
+.box-1 {
+    padding: 20px;
     border: 2px solid black;
     background-color: beige;
     color: slateblue;
     text-align: center;
 }
 
-#Education{
-    text-align: center;
-    background-image: url(https://i.postimg.cc/yx9nVcpN/pngtree-aesthetic-desert-landscape-contemporary-abstract-with-textured-earth-tones-and-beige-image-1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.h1-education{
-    margin: 0;
-    color: navy;
-    text-decoration: underline;
-}
-
-#Experience{
-    background-image: url(https://i.postimg.cc/VNRxwQr7/beautiful-cream-color-luxury-wave-background-with-gold-lines-abstract-elegant-wallpapers-vector.jpg);
+#Education,
+#Experience,
+#Skills,
+#Interests {
+    padding: 50px 0;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
 
-.h1_experience{
-    margin: 0;
-    text-decoration: underline;
+.h1-education,
+.h1_experience,
+#Skills h1,
+#Interests h1 {
+    margin-top: 0;
     color: navy;
+    font-size: 40px;
+    text-decoration: underline;
 }
 
-#Experience h2{
-    text-decoration: underline;
-    color: navy;
+#Education {
+    background-image: url("https://i.postimg.cc/yx9nVcpN/pngtree-aesthetic-desert-landscape-contemporary-abstract-with-textured-earth-tones-and-beige-image-1.png");
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#Experience h3{
-    text-decoration: underline;
-    color: navy;
+.Current_Learning {
+    max-width: 800px;
+    margin: 25px auto 0;
 }
 
-.skills_needed{
+.card-1 {
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    background-color: floralwhite;
+}
+
+#Experience {
+    background-image: url("https://i.postimg.cc/VNRxwQr7/beautiful-cream-color-luxury-wave-background-with-gold-lines-abstract-elegant-wallpapers-vector.jpg");
+}
+
+.Job {
+    max-width: 920px;
+    margin: 40px auto 0;
+}
+
+.Job h2,
+.Job h3 {
+    color: navy;
+    text-decoration: underline;
+}
+
+.Job p {
+    color: royalblue;
+    font-size: 18px;
+}
+
+.skills_needed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.skills_needed span {
+    padding: 10px 15px;
+    border: 2px solid black;
+    background-color: lightyellow;
+    color: royalblue;
+}
+
+/* SKILLS */
+#Skills {
+    background-image: url("https://i.postimg.cc/NjynV2Bt/abstract-paper-cut-vector-template-background-474888-4460.jpg");
+    background-position: bottom;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Skills h2 {
+    color: navy;
+    text-decoration: underline;
+}
+
+.skills-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.skills-grid article {
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+/* INTERESTS */
+#Interests {
+    background-image: url("https://i.postimg.cc/0NGsNXjX/light-beige-grainy-gradient-background-ivory-toned-blurry-cosmetics-background-large-banner-copy-spa.jpg");
+    font-family: "Times New Roman", Times, serif;
+}
+
+#Interests h2 {
+    color: navy;
+    text-decoration: underline;
+}
+
+.interest-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card_free_time {
+    padding: 15px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.card_free_time p {
+    font-size: 18px;
+}
+
+/* FOOTER */
+.Contact {
+    padding: 40px 20px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.Contact h1 {
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.Contact p {
+    color: navy;
+    font-size: 18px;
+}
+
+.contact-links {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 10px;
 }
 
-.skills_needed p{
-    border: 2px solid black;
-    color: royalblue;
-    background-color: lightyellow;
-    padding: 15px;
-    font-size: 1.25rem;
-}
-
-.Job p{
+.Contact a {
+    padding: 8px 12px;
     font-size: 18px;
-    font-weight: 500;
-    color: royalblue;
 }
 
-#Skills{
-    background-image: url(https://i.postimg.cc/NjynV2Bt/abstract-paper-cut-vector-template-background-474888-4460.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 1.2rem;
-    font-family:Arial, Helvetica, sans-serif
-}
-
-#Skills h1{
-    margin: 0;
-    text-decoration: underline;
-    color: navy;
-}
-
-#Skills h2{
-    text-decoration: underline;
-    color: navy;
-}
-
-#Interests{
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-image: url(https://i.postimg.cc/0NGsNXjX/light-beige-grainy-gradient-background-ivory-toned-blurry-cosmetics-background-large-banner-copy-spa.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-#Interests h1{
-    margin: 0;
-    text-decoration: underline;
-    font-size: 32px;
-    color: navy;
-}
-
-#Interests h2{
-    text-decoration: underline;
-    font-size: 25px;
-    color: navy;
-}
-
-#Interests p{
-    font-size: 22px;
-}
-
-.Contact{
-    text-align: center;
-    background-color: burlywood;
-    padding-bottom: 20px;
-}
-
-.Contact h1{
-    margin: 0;
-    padding-top: 15px;
-    text-decoration: underline;
-}
-
-.Contact p{
-    font-size: 20px;
-    margin-bottom: 5px;
-    color: navy;
-}
-
-.Contact a{
-    font-size: 20px;
-    padding: 10px;
-}
-
-.Contact a:hover{
+.Contact a:hover {
     background-color: yellow;
 }
 
-.copyright_section{
-    background-color: #C4A484;
-    padding-top: 18px;
-    padding-bottom: 18px;
+.copyright_section {
+    padding: 18px;
+    background-color: #c4a484;
     text-align: center;
 }
 
-.copyright_section p{
+.copyright_section p {
     margin: 0;
+}
+
+@media (max-width: 800px) {
+    .Header_Nav {
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .right_header {
+        margin-top: 15px;
+    }
+
+    .Hero_Section {
+        height: 600px;
+    }
+
+    .Hero_Introduction {
+        width: 52%;
+        max-width: 430px;
+        top: 57%;
+        left: 50%;
+        font-size: 13px;
+    }
+
+    .Hero_Introduction h1 {
+        font-size: 36px;
+    }
+
+    .Hero_Introduction h2 {
+        font-size: 15px;
+    }
+
+    .container-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Introduction_aboutme {
+        width: 90%;
+    }
+
+    .box-container,
+    .skills-grid,
+    .interest-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 520px) {
+    .Header_Nav {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .left_header,
+    .right_header {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fullname {
+        font-size: 30px;
+    }
+
+    .right_header a {
+        width: 45%;
+        font-size: 15px;
+    }
+
+    .Hero_Section {
+        height: 500px;
+        background-position: 53% center;
+    }
+
+    .Hero_Introduction {
+        width: 54%;
+        top: 54%;
+        left: 47%;
+        font-size: 6px;
+        line-height: 1.2;
+    }
+
+    .Hero_Introduction h1 {
+        margin-bottom: 2px;
+        font-size: 18px;
+    }
+
+    .Hero_Introduction h2 {
+        margin: 2px 0;
+        font-size: 7px;
+    }
+
+    .Hero_Introduction p {
+        margin: 2px 0;
+    }
+
+    .Introduction_aboutme {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .box-container,
+    .skills-grid,
+    .interest-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills_needed span {
+        width: 100%;
+    }
+
+    br {
+        display: none;
+    }
 }
